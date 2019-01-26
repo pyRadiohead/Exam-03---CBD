@@ -1,9 +1,10 @@
 $(document).ready(function () {
   console.log("ready!");
 
-    $('.accordion-qstns li').on('click', function () {
-      $('.answer').css('display', 'block');
   
+  $('.accordion-qstns li').on('click', function () {
+    $(".answer").toggle("slow", function () {});
+
   });
 
   ////slider
